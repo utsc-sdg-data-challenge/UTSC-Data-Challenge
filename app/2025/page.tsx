@@ -25,7 +25,7 @@ export default function Component() {
   const router = useRouter()
   const [showShareModal, setShowShareModal] = useState(false)
   const [copied, setCopied] = useState(false)
-  const shareLink = "https://utsc-sdg.vercel.app/"
+  const shareLink = "utsc-data-challenge.github.io"
 
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId)
@@ -371,7 +371,7 @@ export default function Component() {
                   <CardTitle className="text-center font-bold">🥇 Sustainable Solutions Squad</CardTitle>
                 </CardHeader>
                 <div className="h-64 bg-gradient-to-br from-yellow-100 to-yellow-200 flex items-center justify-center relative overflow-hidden">
-                  <Image src="/team1.png" alt="Best in Show Winners" fill style={{objectFit: 'cover'}} className="absolute inset-0" />
+                  <Image src="/Team1.png" alt="Best in Show Winners" fill style={{objectFit: 'cover'}} className="absolute inset-0" />
                 </div>
               </Card>
 
@@ -381,7 +381,7 @@ export default function Component() {
                   <CardTitle className="text-center font-bold">🔍 Spherical</CardTitle>
                 </CardHeader>
                 <div className="h-64 bg-gradient-to-br from-blue-100 to-blue-200 flex items-center justify-center relative overflow-hidden">
-                  <Image src="/team2.png" alt="Best Insight Winners" fill style={{objectFit: 'cover'}} className="absolute inset-0" />
+                  <Image src="/Team2.png" alt="Best Insight Winners" fill style={{objectFit: 'cover'}} className="absolute inset-0" />
                 </div>
               </Card>
 
@@ -391,7 +391,7 @@ export default function Component() {
                   <CardTitle className="text-center font-bold">📊 Raccoons</CardTitle>
                 </CardHeader>
                 <div className="h-64 bg-gradient-to-br from-purple-100 to-purple-200 flex items-center justify-center relative overflow-hidden">
-                  <Image src="/team3.png" alt="Best Visualization Winners" fill style={{objectFit: 'cover'}} className="absolute inset-0" />
+                  <Image src="/Team3.png" alt="Best Visualization Winners" fill style={{objectFit: 'cover'}} className="absolute inset-0" />
                 </div>
               </Card>
 
@@ -401,7 +401,7 @@ export default function Component() {
                   <CardTitle className="text-center font-bold">👥 Kecap Manis</CardTitle>
                 </CardHeader>
                 <div className="h-64 bg-gradient-to-br from-green-100 to-green-200 flex items-center justify-center relative overflow-hidden">
-                  <Image src="/team4.png" alt="Participants Choice Winners" fill style={{objectFit: 'cover'}} className="absolute inset-0" />
+                  <Image src="/Team4.png" alt="Participants Choice Winners" fill style={{objectFit: 'cover'}} className="absolute inset-0" />
                 </div>
               </Card>
             </div>
@@ -532,7 +532,7 @@ export default function Component() {
                   Department of Computer & Mathematical Sciences, UTSC
                 </h3>
                 <div className="bg-white rounded-xl p-3 shadow flex items-center justify-center mt-4">
-                  <Image src="/sponser1.png" alt="Sponsor 1" width={180} height={100} style={{objectFit: 'contain'}} />
+                  <Image src="/Sponser1.png" alt="Sponsor 1" width={180} height={100} style={{objectFit: 'contain'}} />
                 </div>
               </CardContent>
             </Card>
@@ -540,7 +540,7 @@ export default function Component() {
               <CardContent className="p-6">
                 <h3 className="font-semibold text-[#003A79] mb-2">Department of Sociology, UTSC</h3>
                 <div className="bg-white rounded-xl p-3 shadow flex items-center justify-center mt-4">
-                  <Image src="/sponser2.png" alt="Sponsor 2" width={180} height={100} style={{objectFit: 'contain'}} />
+                  <Image src="/Sponser2.png" alt="Sponsor 2" width={180} height={100} style={{objectFit: 'contain'}} />
                 </div>
               </CardContent>
             </Card>
@@ -548,7 +548,7 @@ export default function Component() {
               <CardContent className="p-6">
                 <h3 className="font-semibold text-[#003A79] mb-2">UTSC Library</h3>
                 <div className="bg-white rounded-xl p-3 shadow flex items-center justify-center mt-4">
-                  <Image src="/sponser3.png" alt="Sponsor 3" width={180} height={100} style={{objectFit: 'contain'}} />
+                  <Image src="/Sponser3.png" alt="Sponsor 3" width={180} height={100} style={{objectFit: 'contain'}} />
                 </div>
               </CardContent>
             </Card>
@@ -556,7 +556,7 @@ export default function Component() {
               <CardContent className="p-6">
                 <h3 className="font-semibold text-[#003A79] mb-2">Department of Political Science, UTSC</h3>
                 <div className="bg-white rounded-xl p-3 shadow flex items-center justify-center mt-4">
-                  <Image src="/sponser4.png" alt="Sponsor 4" width={180} height={100} style={{objectFit: 'contain'}} />
+                  <Image src="/Sponser4.png" alt="Sponsor 4" width={180} height={100} style={{objectFit: 'contain'}} />
                 </div>
               </CardContent>
             </Card>
@@ -564,7 +564,7 @@ export default function Component() {
               <CardContent className="p-6">
                 <h3 className="font-semibold text-[#003A79] mb-2">SDGs @UofT Institutional Strategic Initiative</h3>
                 <div className="bg-white rounded-xl p-3 shadow flex items-center justify-center mt-4">
-                  <Image src="/sponser5.png" alt="Sponsor 5" width={180} height={100} style={{objectFit: 'contain'}} />
+                  <Image src="/Sponser5.png" alt="Sponsor 5" width={180} height={100} style={{objectFit: 'contain'}} />
                 </div>
               </CardContent>
             </Card>
@@ -574,7 +574,7 @@ export default function Component() {
                   The Data Sciences Institute&apos;s Program in Computational and Quantitative Social Science
                 </h3>
                 <div className="bg-white rounded-xl p-3 shadow flex items-center justify-center mt-4">
-                  <Image src="/sponser6.png" alt="Sponsor 6" width={180} height={100} style={{objectFit: 'contain'}} />
+                  <Image src="/Sponser6.png" alt="Sponsor 6" width={180} height={100} style={{objectFit: 'contain'}} />
                 </div>
               </CardContent>
             </Card>
