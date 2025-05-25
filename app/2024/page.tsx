@@ -60,7 +60,7 @@ export default function Component() {
               <CardContent className="p-8">
                 <h3 className="text-2xl font-semibold mb-4">Information Coming Soon</h3>
                 <p className="text-blue-100 mb-6">
-                  We're working on compiling the complete results and highlights from the 2024 competition. Check back
+                  We&apos;re working on compiling the complete results and highlights from the 2024 competition. Check back
                   soon for detailed information about winners, participants, and event highlights.
                 </p>
                 <Button className="bg-white text-[#003A79] hover:bg-blue-50" onClick={() => router.push("/2025")}>
