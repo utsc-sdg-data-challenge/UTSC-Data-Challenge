@@ -44,7 +44,7 @@ export default function Component() {
   const handleCopy = async () => {
     await navigator.clipboard.writeText(shareLink)
     setCopied(true)
-    setTimeout(() => setCopied(false), 1500)
+    setTimeout(() => setCopied(false), 15000)
   }
 
   return (
