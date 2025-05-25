@@ -571,7 +571,7 @@ export default function Component() {
             <Card className="text-center border-l-4 border-l-[#0060AC]">
               <CardContent className="p-6">
                 <h3 className="font-semibold text-[#003A79] mb-2">
-                  The Data Sciences Institute's Program in Computational and Quantitative Social Science
+                  The Data Sciences Institute&apos;s Program in Computational and Quantitative Social Science
                 </h3>
                 <div className="bg-white rounded-xl p-3 shadow flex items-center justify-center mt-4">
                   <Image src="/sponser6.png" alt="Sponsor 6" width={180} height={100} style={{objectFit: 'contain'}} />
