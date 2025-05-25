@@ -53,7 +53,16 @@ export default function Component() {
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-4">
               <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center">
-                <Image src="/Logo.png" alt="UTSC Logo" width={24} height={24} />
+                <Image 
+                  src="/Logo.png" 
+                  alt="UTSC Logo" 
+                  width={24} 
+                  height={24}
+                  onError={(e) => {
+                    console.error('Error loading logo:', e);
+                    e.currentTarget.src = '/placeholder.svg';
+                  }}
+                />
               </div>
               <div>
                 <h1 className="text-xl font-bold">University of Toronto Scarborough</h1>
@@ -420,7 +429,19 @@ export default function Component() {
 
           <div className="max-w-3xl mx-auto overflow-hidden mb-8">
             <div className="h-80 bg-gradient-to-br from-[#0060AC] to-[#003A79] flex items-center justify-center relative overflow-hidden">
-              <Image src="/Judge.png" alt="Panel of Expert Judges" fill style={{objectFit: 'cover'}} />
+              <Image 
+                src="/Judge.png" 
+                alt="Panel of Expert Judges" 
+                fill 
+                style={{objectFit: 'cover'}}
+                onError={(e) => {
+                  console.error('Error loading judge image:', e);
+                  e.currentTarget.src = '/placeholder.svg';
+                }}
+                priority
+                quality={75}
+                loading="eager"
+              />
             </div>
           </div>
 
