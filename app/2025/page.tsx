@@ -184,7 +184,7 @@ export default function Component() {
               <CardContent className="p-8">
                 <p className="text-gray-700 leading-relaxed mb-6">
                   The UTSC SDG Data Challenge brought together <strong>16 interdisciplinary teams</strong>, comprising{" "}
-                  <strong>57 students</strong> from across the University of Toronto's three campuses: St. George,
+                  <strong>57 students</strong> from across the University of Toronto&apos;s three campuses: St. George,
                   Mississauga, and Scarborough. Each team was intentionally composed of students from different academic
                   years and disciplines. While half of the participants were enrolled in Statistics and Data Science,
                   the other half represented a wide range of fields, including Computer Science, Life Sciences, and
