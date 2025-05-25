@@ -60,7 +60,7 @@ export default function Component() {
               <CardContent className="p-8">
                 <h3 className="text-2xl font-semibold mb-4">Information Coming Soon</h3>
                 <p className="text-blue-100 mb-6">
-                  We're currently planning the 2026 UTSC SDG Data Challenge. Details about registration, dates, and
+                  We&apos;re currently planning the 2026 UTSC SDG Data Challenge. Details about registration, dates, and
                   format will be announced soon. Stay tuned for updates!
                 </p>
                 <Button className="bg-white text-[#003A79] hover:bg-blue-50" onClick={() => router.push("/2025")}>
