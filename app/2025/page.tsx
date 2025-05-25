@@ -25,7 +25,7 @@ export default function Component() {
   const router = useRouter()
   const [showShareModal, setShowShareModal] = useState(false)
   const [copied, setCopied] = useState(false)
-  const shareLink = "utsc-data-challenge.github.io"
+  const shareLink = "https://utsc-sdg.vercel.app/"
 
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId)
