@@ -54,7 +54,7 @@ export default function Component() {
             <div className="flex items-center space-x-4">
               <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center">
                 <Image 
-                  src="/Logo.png" 
+                  src="https://utsc-sdg-data-challenge.github.io/UTSC-Data-Challenge/Logo.png" 
                   alt="UTSC Logo" 
                   width={24} 
                   height={24}
