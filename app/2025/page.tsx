@@ -410,7 +410,7 @@ export default function Component() {
                   <CardTitle className="text-center font-bold">👥 Kecap Manis</CardTitle>
                 </CardHeader>
                 <div className="h-64 bg-gradient-to-br from-green-100 to-green-200 flex items-center justify-center relative overflow-hidden">
-                  <Image src="https://utsc-data-challenge.github.io/Team4.png" alt="Participants Choice Winners" fill style={{objectFit: 'cover'}} className="absolute inset-0" />
+                  <Image src="https://utsc-sdg-data-challenge.github.io/UTSC-Data-Challenge/Team4.png" alt="Participants Choice Winners" fill style={{objectFit: 'cover'}} className="absolute inset-0" />
                 </div>
               </Card>
             </div>
