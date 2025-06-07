@@ -16,7 +16,18 @@ export const metadata: Metadata = {
   title: "UTSC Data Challenge",
   description: "UTSC Data Challenge event site",
   icons: {
-    icon: "/Logo.png"
+    icon: [
+      {
+        url: "https://utsc-sdg-data-challenge.github.io/UTSC-Data-Challenge/Logo.png",
+        type: "image/png",
+      }
+    ],
+    apple: [
+      {
+        url: "https://utsc-sdg-data-challenge.github.io/UTSC-Data-Challenge/Logo.png",
+        type: "image/png",
+      }
+    ]
   }
 };
 
