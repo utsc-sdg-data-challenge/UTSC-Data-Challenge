@@ -54,13 +54,13 @@ export default function Component() {
             <div className="flex items-center space-x-4">
               <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center">
                 <Image 
-                  src="https://utsc-data-challenge.github.io/Logo.png" 
+                  src="https://utsc-sdg-data-challenge.github.io/UTSC-Data-Challenge/Logo.png" 
                   alt="UTSC Logo" 
                   width={24} 
                   height={24}
                   onError={(e) => {
                     console.error('Error loading logo:', e);
-                    e.currentTarget.src = 'https://utsc-data-challenge.github.io/placeholder.svg';
+                    e.currentTarget.src = 'https://utsc-sdg-data-challenge.github.io/UTSC-Data-Challenge/placeholder.svg';
                   }}
                 />
               </div>
@@ -128,13 +128,13 @@ export default function Component() {
         <div className="container mx-auto px-4 text-center relative z-10">
           <div className="flex justify-center mb-6 gap-4 flex-wrap">
             <div className="bg-white rounded-xl p-2 shadow-md flex items-center justify-center">
-              <Image src="https://utsc-data-challenge.github.io/sdg.png" alt="Sustainable Development Goals" width={120} height={80} style={{objectFit: 'contain'}} />
+              <Image src="https://utsc-sdg-data-challenge.github.io/UTSC-Data-Challenge/sdg.png" alt="Sustainable Development Goals" width={120} height={80} style={{objectFit: 'contain'}} />
             </div>
             <div className="bg-white rounded-xl p-2 shadow-md flex items-center justify-center">
-              <Image src="https://utsc-data-challenge.github.io/uoft.png" alt="University of Toronto Scarborough" width={180} height={80} style={{objectFit: 'contain'}} />
+              <Image src="https://utsc-sdg-data-challenge.github.io/UTSC-Data-Challenge/uoft.png" alt="University of Toronto Scarborough" width={180} height={80} style={{objectFit: 'contain'}} />
             </div>
             <div className="bg-white rounded-xl p-2 shadow-md flex items-center justify-center">
-              <Image src="https://utsc-data-challenge.github.io/utsc60.png" alt="UTSC 60th Anniversary" width={90} height={90} style={{objectFit: 'contain'}} />
+              <Image src="https://utsc-sdg-data-challenge.github.io/UTSC-Data-Challenge/utsc60.png" alt="UTSC 60th Anniversary" width={90} height={90} style={{objectFit: 'contain'}} />
             </div>
           </div>
           <h1 className="text-5xl md:text-6xl font-bold mb-6">UTSC SDG Data Challenge 2025</h1>
@@ -179,7 +179,7 @@ export default function Component() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto overflow-hidden mb-8">
             <div className="h-96 bg-gradient-to-br from-[#003A79] to-[#0060AC] flex items-center justify-center relative overflow-hidden">
-              <Image src="https://utsc-data-challenge.github.io/Group.png" alt="Group Photo of All 57 Participants" fill style={{objectFit: 'cover'}} />
+              <Image src="https://utsc-sdg-data-challenge.github.io/UTSC-Data-Challenge/Group.png" alt="Group Photo of All 57 Participants" fill style={{objectFit: 'cover'}} />
             </div>
           </div>
           <div className="text-center mb-12">
@@ -380,7 +380,7 @@ export default function Component() {
                   <CardTitle className="text-center font-bold">🥇 Sustainable Solutions Squad</CardTitle>
                 </CardHeader>
                 <div className="h-64 bg-gradient-to-br from-yellow-100 to-yellow-200 flex items-center justify-center relative overflow-hidden">
-                  <Image src="https://utsc-data-challenge.github.io/Team1.png" alt="Best in Show Winners" fill style={{objectFit: 'cover'}} className="absolute inset-0" />
+                  <Image src="https://utsc-sdg-data-challenge.github.io/UTSC-Data-Challenge/Team1.png" alt="Best in Show Winners" fill style={{objectFit: 'cover'}} className="absolute inset-0" />
                 </div>
               </Card>
 
@@ -390,7 +390,7 @@ export default function Component() {
                   <CardTitle className="text-center font-bold">🔍 Spherical</CardTitle>
                 </CardHeader>
                 <div className="h-64 bg-gradient-to-br from-blue-100 to-blue-200 flex items-center justify-center relative overflow-hidden">
-                  <Image src="https://utsc-data-challenge.github.io/Team2.png" alt="Best Insight Winners" fill style={{objectFit: 'cover'}} className="absolute inset-0" />
+                  <Image src="https://utsc-sdg-data-challenge.github.io/UTSC-Data-Challenge/Team2.png" alt="Best Insight Winners" fill style={{objectFit: 'cover'}} className="absolute inset-0" />
                 </div>
               </Card>
 
@@ -400,7 +400,7 @@ export default function Component() {
                   <CardTitle className="text-center font-bold">📊 Raccoons</CardTitle>
                 </CardHeader>
                 <div className="h-64 bg-gradient-to-br from-purple-100 to-purple-200 flex items-center justify-center relative overflow-hidden">
-                  <Image src="https://utsc-data-challenge.github.io/Team3.png" alt="Best Visualization Winners" fill style={{objectFit: 'cover'}} className="absolute inset-0" />
+                  <Image src="https://utsc-sdg-data-challenge.github.io/UTSC-Data-Challenge/Team3.png" alt="Best Visualization Winners" fill style={{objectFit: 'cover'}} className="absolute inset-0" />
                 </div>
               </Card>
 
@@ -410,7 +410,7 @@ export default function Component() {
                   <CardTitle className="text-center font-bold">👥 Kecap Manis</CardTitle>
                 </CardHeader>
                 <div className="h-64 bg-gradient-to-br from-green-100 to-green-200 flex items-center justify-center relative overflow-hidden">
-                  <Image src="https://utsc-sdg-data-challenge.github.io/UTSC-Data-Challenge/Team4.png" alt="Participants Choice Winner" fill style={{objectFit: 'cover'}} className="absolute inset-0" />
+                  <Image src="https://utsc-sdg-data-challenge.github.io/UTSC-Data-Challenge/Team4.png" alt="Participants Choice Winners" fill style={{objectFit: 'cover'}} className="absolute inset-0" />
                 </div>
               </Card>
             </div>
@@ -430,13 +430,13 @@ export default function Component() {
           <div className="max-w-3xl mx-auto overflow-hidden mb-8">
             <div className="h-80 bg-gradient-to-br from-[#0060AC] to-[#003A79] flex items-center justify-center relative overflow-hidden">
               <Image 
-                src="https://utsc-data-challenge.github.io/Judge.png" 
+                src="https://utsc-sdg-data-challenge.github.io/UTSC-Data-Challenge/Judge.png" 
                 alt="Panel of Expert Judges" 
                 fill 
                 style={{objectFit: 'cover'}}
                 onError={(e) => {
                   console.error('Error loading judge image:', e);
-                  e.currentTarget.src = 'https://utsc-data-challenge.github.io/placeholder.svg';
+                  e.currentTarget.src = 'https://utsc-sdg-data-challenge.github.io/UTSC-Data-Challenge/placeholder.svg';
                 }}
                 priority
                 quality={75}
@@ -553,7 +553,7 @@ export default function Component() {
                   Department of Computer & Mathematical Sciences, UTSC
                 </h3>
                 <div className="bg-white rounded-xl p-3 shadow flex items-center justify-center mt-4">
-                  <Image src="https://utsc-data-challenge.github.io/Sponser1.png" alt="Sponsor 1" width={180} height={100} style={{objectFit: 'contain'}} />
+                  <Image src="https://utsc-sdg-data-challenge.github.io/UTSC-Data-Challenge/Sponser1.png" alt="Sponsor 1" width={180} height={100} style={{objectFit: 'contain'}} />
                 </div>
               </CardContent>
             </Card>
@@ -561,7 +561,7 @@ export default function Component() {
               <CardContent className="p-6">
                 <h3 className="font-semibold text-[#003A79] mb-2">Department of Sociology, UTSC</h3>
                 <div className="bg-white rounded-xl p-3 shadow flex items-center justify-center mt-4">
-                  <Image src="https://utsc-data-challenge.github.io/Sponser2.png" alt="Sponsor 2" width={180} height={100} style={{objectFit: 'contain'}} />
+                  <Image src="https://utsc-sdg-data-challenge.github.io/UTSC-Data-Challenge/Sponser2.png" alt="Sponsor 2" width={180} height={100} style={{objectFit: 'contain'}} />
                 </div>
               </CardContent>
             </Card>
@@ -569,7 +569,7 @@ export default function Component() {
               <CardContent className="p-6">
                 <h3 className="font-semibold text-[#003A79] mb-2">UTSC Library</h3>
                 <div className="bg-white rounded-xl p-3 shadow flex items-center justify-center mt-4">
-                  <Image src="https://utsc-data-challenge.github.io/Sponser3.png" alt="Sponsor 3" width={180} height={100} style={{objectFit: 'contain'}} />
+                  <Image src="https://utsc-sdg-data-challenge.github.io/UTSC-Data-Challenge/Sponser3.png" alt="Sponsor 3" width={180} height={100} style={{objectFit: 'contain'}} />
                 </div>
               </CardContent>
             </Card>
@@ -577,7 +577,7 @@ export default function Component() {
               <CardContent className="p-6">
                 <h3 className="font-semibold text-[#003A79] mb-2">Department of Political Science, UTSC</h3>
                 <div className="bg-white rounded-xl p-3 shadow flex items-center justify-center mt-4">
-                  <Image src="https://utsc-data-challenge.github.io/Sponser4.png" alt="Sponsor 4" width={180} height={100} style={{objectFit: 'contain'}} />
+                  <Image src="https://utsc-sdg-data-challenge.github.io/UTSC-Data-Challenge/Sponser4.png" alt="Sponsor 4" width={180} height={100} style={{objectFit: 'contain'}} />
                 </div>
               </CardContent>
             </Card>
@@ -585,7 +585,7 @@ export default function Component() {
               <CardContent className="p-6">
                 <h3 className="font-semibold text-[#003A79] mb-2">SDGs @UofT Institutional Strategic Initiative</h3>
                 <div className="bg-white rounded-xl p-3 shadow flex items-center justify-center mt-4">
-                  <Image src="https://utsc-data-challenge.github.io/Sponser5.png" alt="Sponsor 5" width={180} height={100} style={{objectFit: 'contain'}} />
+                  <Image src="https://utsc-sdg-data-challenge.github.io/UTSC-Data-Challenge/Sponser5.png" alt="Sponsor 5" width={180} height={100} style={{objectFit: 'contain'}} />
                 </div>
               </CardContent>
             </Card>
@@ -595,7 +595,7 @@ export default function Component() {
                   The Data Sciences Institute&apos;s Program in Computational and Quantitative Social Science
                 </h3>
                 <div className="bg-white rounded-xl p-3 shadow flex items-center justify-center mt-4">
-                  <Image src="https://utsc-data-challenge.github.io/Sponser6.png" alt="Sponsor 6" width={180} height={100} style={{objectFit: 'contain'}} />
+                  <Image src="https://utsc-sdg-data-challenge.github.io/UTSC-Data-Challenge/Sponser6.png" alt="Sponsor 6" width={180} height={100} style={{objectFit: 'contain'}} />
                 </div>
               </CardContent>
             </Card>
