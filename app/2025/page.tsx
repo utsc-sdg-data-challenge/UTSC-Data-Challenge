@@ -603,6 +603,62 @@ export default function Component() {
       </section>
 
 
+      {/* Archive Section */}
+      <section id="archive" className="py-16">
+        <div className="container mx-auto px-4">
+          <h2 className="text-4xl font-bold text-[#003A79] text-center mb-12">Challenge Archive</h2>
+          <div className="max-w-4xl mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              <Card className="text-center border-2 border-[#003A79] bg-[#003A79] text-white">
+                <CardHeader>
+                  <CardTitle className="text-2xl">2025</CardTitle>
+                  <CardDescription className="text-blue-200">Current Challenge</CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-sm mb-4">UTSC SDG Data Challenge</p>
+                  <Badge className="bg-white text-[#003A79]">Active</Badge>
+                </CardContent>
+              </Card>
+              <Card className="text-center hover:shadow-lg transition-shadow">
+                <CardHeader>
+                  <CardTitle className="text-2xl text-[#003A79]">2024</CardTitle>
+                  <CardDescription>Previous Challenge</CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-sm text-gray-600 mb-4">Statistics Competition 2024</p>
+                  <Button
+                    variant="outline"
+                    className="border-[#003A79] text-[#003A79] hover:bg-[#003A79] hover:text-white"
+                    onClick={() => router.push("/2024")}
+                  >
+                    View Results
+                    <ChevronRight className="ml-2 h-4 w-4" />
+                  </Button>
+                </CardContent>
+              </Card>
+              <Card className="text-center hover:shadow-lg transition-shadow">
+                <CardHeader>
+                  <CardTitle className="text-2xl text-[#003A79]">2026</CardTitle>
+                  <CardDescription>Upcoming Challenge</CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-sm text-gray-600 mb-4">Planning in Progress</p>
+                  <Button
+                    variant="outline"
+                    className="border-[#003A79] text-[#003A79] hover:bg-[#003A79] hover:text-white"
+                    onClick={() => router.push("/2026")}
+                  >
+                    Get Updates
+                    <ChevronRight className="ml-2 h-4 w-4" />
+                  </Button>
+                </CardContent>
+              </Card>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
       {/* Footer */}
       <footer className="bg-[#003A79] text-white py-12">
         <div className="container mx-auto px-4 text-center">
