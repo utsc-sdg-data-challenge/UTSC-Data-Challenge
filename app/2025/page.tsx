@@ -66,7 +66,7 @@ export default function Component() {
               </div>
               <div>
                 <h1 className="text-xl font-bold">University of Toronto Scarborough</h1>
-                <p className="text-blue-200 text-sm">SDG Data Challenge 2025 - Results</p>
+                
               </div>
             </div>
             <nav className="hidden md:flex space-x-6">
@@ -96,7 +96,6 @@ export default function Component() {
                 onChange={handleYearChange}
               >
                 <option value="2025">2025</option>
-                <option value="2024">2024</option>
                 <option value="2026">2026</option>
               </select>
               <Button className="bg-white text-[#003A79] hover:bg-blue-50" onClick={() => setShowShareModal(true)}>
